@@ -7,4 +7,9 @@ A particle filter is used to address this problem by simulating robots ("particl
 
 To run the particle filter simulation,  run ```python3 pf_gui.py``` in the root directory.
 
+After a few iterations, the particles have not yet agreed on a position. The red dots are the particles, with their attached lines showing their orientation. The blue squares on the edges of the grid are the landmarks used for observations. 
 ![alt text](https://github.com/zhangj150/particle-filter-localization/blob/master/unconverged.png "unconverged")
+
+The estimated robot location is the average position of all the particles. When all the particles converge to roughly the same spot, the estimated location is close to the ground truth location of the robot.
+
+![alt text](https://github.com/zhangj150/particle-filter-localization/blob/master/converged.png "converged")
