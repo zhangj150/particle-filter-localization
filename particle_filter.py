@@ -2,7 +2,7 @@ from grid import *
 from particle import Particle
 from utils import *
 from setting import *
-#by Jonathan Zhang and Pravan Kalaga
+#by Jonathan Zhang
 
 def motion_update(particles, odom):
     """ Particle filter motion update
