@@ -7,4 +7,4 @@ A particle filter is used to address this problem by simulating robots ("particl
 
 To run the particle filter simulation,  run ```python3 pf_gui.py``` in the root directory.
 
-![alt text](https://github.com/zhangj150/particle-filter-localization/edit/master/unconverged.png)
+![alt text](https://github.com/zhangj150/particle-filter-localization/blob/master/unconverged.png "unconverged")
